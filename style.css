@@ -7,4 +7,50 @@
 
 body {
     font-family: sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    gap: 1rem;
+
+    .sentence {
+        flex: 1;
+    }
+
+    .m-y {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 3px;
+
+    }
+
+    p {
+        font-size: 65%;
+        color: rgb(150, 150, 150);
+    }
+
+    span {
+        font-size: 75%;
+        color: rgb(150, 150, 150);
+    }
+
+    i {
+        font-size: 25px;
+    }
+}
+
+.container {
+    margin: 1.5rem;
+    padding: 2rem;
+    background-color: aqua;
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.481);
+
 }
